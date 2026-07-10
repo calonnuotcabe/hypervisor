@@ -1,0 +1,1 @@
+cmd_/kernel/initramfs/mnt/hello-1.ko := ld -r -m elf_i386 -T /kernel/linux-2.6.32/scripts/module-common.lds --build-id -o /kernel/initramfs/mnt/hello-1.ko /kernel/initramfs/mnt/hello-1.o /kernel/initramfs/mnt/hello-1.mod.o
