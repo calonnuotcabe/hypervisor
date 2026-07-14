@@ -15,8 +15,8 @@ RUN sed -i 's/archive.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.lis
 
 WORKDIR /kernel
 
-RUN wget --no-check-certificate https://busybox.net/downloads/busybox-1.19.4.tar.bz2 && \
-    tar xf busybox-1.19.4.tar.bz2
+RUN wget --no-check-certificate https://busybox.net/downloads/busybox-1.17.4.tar.bz2 && \
+    tar xf busybox-1.17.4.tar.bz2
 
 COPY linux-2.6.32.tar.xz .
 

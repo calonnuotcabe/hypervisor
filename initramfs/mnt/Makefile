@@ -1,5 +1,4 @@
 obj-m += hello-1.o
-
 KDIR ?= ../../linux-2.6.32 
 PWD = $(CURDIR)
 
