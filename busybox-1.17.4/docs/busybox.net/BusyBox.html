@@ -114,13 +114,19 @@ been enabled, more detailed usage information will also be available.</p>
 <h1><a name="commands">COMMANDS</a></h1>
 <p>Currently available applets include:</p>
 <pre>
-        ash, cat, chmod, dmesg, echo, halt, id, insmod, ls, lsmod, mkdir,
-        mknod, modprobe, mount, poweroff, ps, pwd, reboot, rmmod, sh, uname</pre>
+        ash, awk, cat, chmod, cttyhack, cut, dmesg, echo, grep, halt, id,
+        insmod, ls, lsmod, mdev, mkdir, mknod, modprobe, mount, poweroff,
+        ps, pwd, reboot, rmmod, setsid, setuidgid, sh, stty, umount, uname</pre>
 <p>
 </p>
 <hr />
 <h1><a name="command_descriptions">COMMAND DESCRIPTIONS</a></h1>
 <dl>
+<dt><strong><a name="awk" class="item"><strong>awk</strong></a></strong></dt>
+
+<dd>
+<p>awk [OPTIONS] [AWK_PROGRAM] [FILE]...</p>
+</dd>
 <dt><strong><a name="cat" class="item"><strong>cat</strong></a></strong></dt>
 
 <dd>
@@ -131,6 +137,16 @@ been enabled, more detailed usage information will also be available.</p>
 <dd>
 <p>chmod [-R] MODE[,MODE]... FILE...</p>
 </dd>
+<dt><strong><a name="cttyhack" class="item"><strong>cttyhack</strong></a></strong></dt>
+
+<dd>
+<p>cttyhack PROG ARGS</p>
+</dd>
+<dt><strong><a name="cut" class="item"><strong>cut</strong></a></strong></dt>
+
+<dd>
+<p>cut [OPTIONS] [FILE]...</p>
+</dd>
 <dt><strong><a name="dmesg" class="item"><strong>dmesg</strong></a></strong></dt>
 
 <dd>
@@ -140,6 +156,11 @@ been enabled, more detailed usage information will also be available.</p>
 
 <dd>
 <p>echo [ARG]...</p>
+</dd>
+<dt><strong><a name="grep" class="item"><strong>grep</strong></a></strong></dt>
+
+<dd>
+<p>grep [-HhnlLoqvsriwF] [-m N] PATTERN/-e PATTERN.../-f FILE [FILE]...</p>
 </dd>
 <dt><strong><a name="halt" class="item"><strong>halt</strong></a></strong></dt>
 
@@ -165,6 +186,11 @@ been enabled, more detailed usage information will also be available.</p>
 
 <dd>
 <p>lsmod</p>
+</dd>
+<dt><strong><a name="mdev" class="item"><strong>mdev</strong></a></strong></dt>
+
+<dd>
+<p>mdev [-s]</p>
 </dd>
 <dt><strong><a name="mkdir" class="item"><strong>mkdir</strong></a></strong></dt>
 
@@ -210,6 +236,26 @@ been enabled, more detailed usage information will also be available.</p>
 
 <dd>
 <p>rmmod [OPTIONS] [MODULE]...</p>
+</dd>
+<dt><strong><a name="setsid" class="item"><strong>setsid</strong></a></strong></dt>
+
+<dd>
+<p>setsid PROG ARGS</p>
+</dd>
+<dt><strong><a name="setuidgid" class="item"><strong>setuidgid</strong></a></strong></dt>
+
+<dd>
+<p>setuidgid USER PROG ARGS</p>
+</dd>
+<dt><strong><a name="stty" class="item"><strong>stty</strong></a></strong></dt>
+
+<dd>
+<p>stty [-a|g] [-F DEVICE] [SETTING]...</p>
+</dd>
+<dt><strong><a name="umount" class="item"><strong>umount</strong></a></strong></dt>
+
+<dd>
+<p>umount [OPTIONS] FILESYSTEM|DIRECTORY</p>
 </dd>
 <dt><strong><a name="uname" class="item"><strong>uname</strong></a></strong></dt>
 

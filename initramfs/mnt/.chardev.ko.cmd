@@ -1,0 +1,1 @@
+cmd_/kernel/initramfs/mnt/chardev.ko := ld -r -m elf_i386 -T /kernel/linux-2.6.32/scripts/module-common.lds --build-id -o /kernel/initramfs/mnt/chardev.ko /kernel/initramfs/mnt/chardev.o /kernel/initramfs/mnt/chardev.mod.o

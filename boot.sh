@@ -5,4 +5,5 @@ qemu-system-i386 \
   -initrd initramfs.cpio.gz \
   -append "console=ttyS0" \
   -nographic \
+  -s -S
   -virtfs local,path=/home/huhu/hypervisor,mount_tag=hostshare,security_model=none,id=hostshare
