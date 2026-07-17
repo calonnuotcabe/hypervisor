@@ -1,3 +1,0 @@
-kernel//kernel/initramfs/mnt/hello-1.ko
-kernel//kernel/initramfs/mnt/vuln.ko
-kernel//kernel/initramfs/mnt/chardev.ko
