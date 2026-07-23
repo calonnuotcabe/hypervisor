@@ -232,18 +232,18 @@ int main(void) {
 
 run it and it... crashed? </br>
 
-![alt text](image.png)
+![alt text](image/image.png)
 After received the crash, I try to debug the kernel to see why its crashed</br>
 
-![alt text](image-1.png)
+![alt text](image/image-1.png)
 
 I do managed to jump in `win()`, but I crashed in `put`, and the kernel poweroff immediately
 
-![alt text](image-2.png)
+![alt text](image/image-2.png)
 
 Turn out the program crashed in system_call() not is `put`() </br>
 
-![alt text](image-3.png)
+![alt text](image/image-3.png)
 
 system_call: </br>
 ```bash
