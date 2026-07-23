@@ -431,7 +431,7 @@ int main(void)
 }
 ```
 ### Special
-**Thanks to llh.lam, _alight.o_o, and haidagn for carrying me through this whole project and helping me finish this shit. </br>**
+**Thanks to llh.lam, _alight.o_o, and haidagn for carrying me through the whole project in my uni and helping me finish this shit. </br>**
 **Shout-out to Linus Torvalds for creating such a well-developed operating system. </br>**
 **Shout-out to kasero for being the GOAT. </br>**
 **Special shout-out to hvk2898 and all the girls I followed on IG for being an irreplaceable source of motivation as I worked toward my goal. </br>**
