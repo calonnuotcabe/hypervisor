@@ -1,10 +1,9 @@
 obj-m += hello-1.o
 obj-m += vuln.o
-obj-m += chardev.o
 KDIR ?= ../../linux-2.6.32 
 PWD = $(CURDIR)
 
 all: 
-	$(MAKE) -C $(KDIR) M=$(PWD) ARCH=i386 modules
+	$(MAKE) -C $(KDIR) M=$(PWD) ARCH=x86 modules
 clean:
-	$(MAKE) -C $(KDIR) M=$(PWD) ARCH=i386 clean
+	$(MAKE) -C $(KDIR) M=$(PWD) ARCH=x86 clean

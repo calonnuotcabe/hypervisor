@@ -1,4 +1,4 @@
-IMAGE_NAME=linux26-builder
+ưIMAGE_NAME=linux26-builder
 
 build:
 	docker build -t $(IMAGE_NAME) .
