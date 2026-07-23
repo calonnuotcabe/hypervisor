@@ -318,6 +318,7 @@ struct cred {
 };
 ```
 
+
 The address:</br>
 ```
 pwndbg> b prepare_kernel_cred
